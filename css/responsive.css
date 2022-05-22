@@ -1,0 +1,389 @@
+@media (max-width:575.98px){
+/*======= Navber Part Start =======*/
+    .logo img{
+        width: 70%;
+    }
+    .main-manu li a{
+        font-size: 14px;
+    }
+    .main-manu li a::after{
+        width: 48px;
+        height: 18px;
+    }
+    .main-manu li a:hover::after{
+        left: 19px;
+        transform: translateX(-50%);
+    }
+    .button{
+        margin-left: 0;
+        width: 40%;
+        padding: 0;
+    }
+    .button img{
+        width: 15%;
+    }
+    .button a{
+        font-size: 12px;
+        padding: 5px;
+    }
+/*======= Navber Part End =======*/ 
+
+/*======= Banner Part Start =======*/
+    .banner-image{
+        margin-top: 135px;
+    }
+    .banner-text{
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .banner-text h2{
+        font-size: 25px;
+    }
+
+    .banner-text h1{
+        font-size: 40px;
+    }
+    .banner-text p{
+        font-size: 12px;
+        padding: 0 15px;
+    }
+    .btn a{
+        padding: 5px;
+        font-size: 12px;
+    }
+/*======= Banner Part End =======*/ 
+
+/*======= History Part Start =======*/
+    #history{
+        margin: 30px 0;
+    }
+    .history .text h3{
+        font-size: 20px;
+        margin-left: 94px;
+    }
+    .history .text h3::after{
+        width: 67px;
+        height: 55px;
+        top: -15px;
+        left: -44px;
+    }
+    .history .text h2{
+        font-size: 26px;
+        margin-left: 94px;
+    }
+
+    .history .text p{
+        margin-top: 16px;
+        font-size: 13px;
+        padding: 0 25px;
+        line-height: 20px;
+    }
+/*======= History Part End =======*/ 
+
+/*======= Valentine Part Start =======*/
+    .proposal{
+        margin-top: 40px;
+        margin-bottom: 140px;
+
+    }
+    .proposal h3{
+        font-size: 20px;
+        margin-left: 72px;
+    }
+    .proposal h3::after{
+        width: 67px;
+        height: 55px;
+        top: -15px;
+        left: -44px;
+    }
+    .proposal h2{
+        font-size: 25px;
+        margin-left: 72px;
+        margin-bottom: 30px;
+    }
+    .proposal p{
+        margin-top: 16px;
+        font-size: 13px;
+        padding: 0 25px;
+        line-height: 20px;
+    }
+    .btn1{
+        margin-left: 27px;
+    }
+    .btn1 .send{
+        margin-right: 30px;
+    }
+    .btn1 a{
+        padding: 5px;
+        font-size: 12px;
+    }
+    .gift{
+        margin-top: -144px;
+    }
+/*======= Valentine Part End =======*/
+
+/*======= Ticket Part Start =======*/
+    #ticket{
+        margin: 50px 0;
+    }
+    #ticket .text h3{
+        font-size: 20px;
+    }
+    #ticket .text h3::after{
+        width: 58px;
+        height: 55px;
+        top: -21px;
+        right: -27px;
+    }
+    .ticket-image img{
+       width: 70% !important;
+    }
+    #ticket .text h2{
+        font-size: 24px;
+        margin-top: 5px;
+    }
+    #ticket .text p{
+        margin-top: 18px;
+        font-size: 12px;
+    }
+    .cbtn{
+        margin-top: 30px;
+    }
+    .cbtn a{
+        margin-right: 10px;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+/*======= Ticket Part End =======*/ 
+
+/*======= Service Part Start =======*/
+    #service{
+        padding-top: 90px;
+    }
+    .service{
+        text-align: center;
+    }
+    .service-text h3{
+        font-size: 20px;
+    }
+    .service-text h3::after{
+        width: 65px;
+        height: 54px;
+        top: -28px;
+        left: 37px;
+    }
+    .service-text h2{
+        font-size: 23px;
+    }
+    .service-text p{
+        font-size: 12px;
+        margin-top: 20px;
+        padding: 0 10px;
+    }
+    .service-item .item{
+        padding: 20px;
+        margin: 7px;
+    }
+    .item .icon img{
+        margin-top: 30px;
+    }
+    .item .icon h3{
+        margin-top: 30px;
+        margin-left: 10px; 
+    }
+    .service-item .item .text p{
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    .service-item .item::after{
+        width: 3px;
+        height: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+    }
+    .service-item .item:hover::after{
+        height: 100%;
+    } 
+/*======= Service Part End =======*/
+
+/*======= Capture Part Start =======*/
+    #capture{
+        margin: 10px 0;
+    }
+    .capture-item .item .overlay .icon{
+        height: 68%;
+    }
+    .capture-item .item .overlay .icon ul li{
+        width: 30px;
+        height: 30px;
+    }
+    .capture-item .item .overlay .icon ul li a{
+        line-height: 30px;
+        font-size: 15px;
+    }
+    .capture-text{
+        padding-top: 50px;
+    }
+    .capture-text h3{
+        margin-right: 46px;
+        font-size: 24px;
+    }
+    .capture-text h3::after{
+        width: 83px;
+        height: 72px;
+        top: -25px;
+        right: -23px;
+    }
+    .capture-text h2{
+        margin-right: 24px;
+        font-size: 26px;
+    }
+    .btn2 a{ 
+        margin-left: 0;
+    }
+    .cbtn a{
+        margin-right: 12px;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+/*======= Capture Part End =======*/
+
+/*======= Count Part Start =======*/
+    #count{
+        padding-top: 90px;
+        padding-bottom: 40px;
+    }
+    .count .item{
+        padding-bottom: 50px;
+    }
+    .count .item h2{
+        font-size: 35px;
+    }
+    .count .item h3{
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+    .count .love::after{
+        width: 15px;
+        height: 15px;
+        top: -60px;
+        left: 125px;
+    }
+    .count .item h2::after{
+        width: 35px;
+        height: 35px;
+        top: -44px;
+        left: 145px;
+    }
+    .count .item h3::after{
+        width: 20px;
+        height: 20px;
+        top: -28px;
+        left: 125px;
+    }
+/*======= Count Part End =======*/
+
+/*======= About Part Start =======*/
+    #about{
+        margin-top: 0;
+        margin-bottom:100px; 
+    }
+    .about-area .item{
+        background: #fffae2;
+        box-shadow: 0px 1px 1px 2px #eeedea;
+        padding: 10px;
+    }
+    .about-area .item .image{
+        margin-top: 20px;
+    }
+    .profession{
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .profession h3{
+        font-size: 18px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+    }
+    .profession h4{
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+    }
+    
+/*======= About Part End =======*/
+
+
+/*======= Fotter Part Start =======*/
+    .newsletter{
+        border-radius: 50px;
+        padding: 6px 16px;
+        transform: translateY(-50%);
+    }
+    .newsletter .news i{
+        font-size: 30px;
+    }
+    .newsletter .news .text h2{
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+    .newsletter .news .text h6{
+        font-size: 12px;
+    }
+    .newsletter .item a{
+        padding: 4px;
+        margin-left: -7px;
+    }
+    .item .buttonn{
+        padding: 4px;
+    }
+    .main-footer .logo{
+        margin-top: -33px;
+        margin-bottom: 32px;
+    }
+    .item .icon1 .ft-icon{
+        text-align: start;
+        display: inline-block;
+        margin-left: 20px;
+    }
+    .footer-item .item .text{
+        margin-bottom: 40px;
+    }
+    .footer-item .item .text h4{
+        font-size: 12px;
+    }
+    .follow{
+        text-align: center;
+        margin-top: 60px;
+        
+    }
+    .follow a{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 1px solid #d50a51;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+    .follow i{
+        line-height: 30px;
+        justify-content: center;
+        display: flex;
+        color: #d50a51;
+    }
+    .follow i:hover{
+        background: #d50a51;
+        color: #ffffff;
+    }
+
+    .copy p{
+        background: #fce1ed;
+        font-size: 15px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        padding: 10px 0;
+    }
+/*======= Fotter Part End =======*/
+}

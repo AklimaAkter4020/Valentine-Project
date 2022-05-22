@@ -1,0 +1,840 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Josefin+Sans:wght@400;600&family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ol,ul{
+    list-style: none;
+}
+.container{
+    margin: 0 auto;
+}
+/*===========================
+    All Common Part End
+============================*/
+
+
+/*===========================
+    Navber Part Start
+============================*/
+#navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.navbar{
+    margin-top: 30px;
+}
+.main-manu li{
+    margin: 0 10px;
+}
+.main-manu li a{
+    font-size: 16px;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    position: relative;
+}
+.main-manu li a::after{
+    content: "";
+    background: url(../img/full.png)no-repeat center/cover;
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.main-manu li a:hover::after{
+    color: #d50a51;
+    opacity: 1;
+    visibility: visible;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.button{
+    background: #d50a51;
+    border: 1px solid #d50a51;
+    border-radius: 20px;
+    padding: 8px;
+    margin-left: 100px;
+}
+.button a{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+/*===========================
+    Navber Part End
+============================*/
+
+
+/*===========================
+    Banner Part Start
+============================*/
+#banner{
+    background: linear-gradient(#f7ebf0,#fceef5);
+}
+.banner-image{
+    margin-top: 135px;
+}
+.banner-text{
+    margin-top: 225px;
+    text-align: center;
+}
+.banner-text h2{
+    font-size: 61px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #8a5e3b;
+}
+
+.banner-text h1{
+    font-size: 84px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    color: #d50a51;
+}
+.banner-text p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #1d1b1c;
+    padding: 30px 20px;
+}
+.btn a{
+    background: #ffffff;
+    border: 1px solid #d50a51;
+    border-radius: 20px;
+    padding: 8px;
+    color: #d50a51;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all linear .4s;
+}
+.btn a:hover{
+    background: #d50a51;
+    color: #ffffff;
+}
+/*===========================
+    Banner Part End
+============================*/
+
+
+/*===========================
+    History Part Start
+============================*/
+
+#history{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.history{
+    display: flex;
+}
+.history .text h3{
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    position: relative;
+}
+.history .text h3::after{
+    content: "";
+    width: 88px;
+    height: 75px;
+    background: url(../img/love-left.png)no-repeat center/cover;
+    position: absolute;
+    top: -30px;
+    left: -53px;
+}
+.history .text h2{
+    margin-left: 60px;
+    font-size: 32px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    margin-top: 5px;
+    color: #d50a51;
+}
+
+.history .text p{
+    margin-top: 40px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 21px;
+    line-height: 25px;
+}
+/*===========================
+    History Part End
+============================*/
+
+
+/*===========================
+    Valentine Part Start
+============================*/
+#valentine{
+    background: #fff9e0;
+}
+.valentine{
+    display: flex;
+    justify-content: center;
+    
+}
+.proposal{
+    margin-top: 90px;
+}
+.proposal h3{
+    position: relative;
+    font-size: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+
+}
+.proposal h3::after{
+    content: "";
+    width: 88px;
+    height: 75px;
+    background: url(../img/love-left.png)no-repeat center/cover;
+    position: absolute;
+    top: -26px;
+    left: -51px;
+}
+.proposal h2{
+    font-size: 32px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    color: #d50a51;
+    margin-bottom: 40px;
+    padding-top: 5px;
+}
+.proposal p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.btn1 .send{
+    margin-right: 30px;
+}
+.btn1 a{
+    background: #ffffff;
+    border: 1px solid #d50a51;
+    border-radius: 20px;
+    padding: 8px;
+    color: #d50a51;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all linear .4s;
+}
+.btn1 a:hover{
+    background: #d50a51;
+    color: #ffffff;
+}
+
+.gift{
+    margin-top: -144px;
+}
+/*===========================
+    Valentine Part End
+============================*/
+
+/*===========================
+    Ticket Part Start
+============================*/
+#ticket{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: right;
+}
+#ticket .text h3{
+    margin-right: 60px;
+    margin-top: 30px;
+    font-size: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    position: relative;
+}
+.ticket-image{
+    margin-left: -90px;
+}
+#ticket .text h3::after{
+    content: "";
+    width: 88px;
+    height: 75px;
+    background: url(../img/love.png)no-repeat center/cover;
+    position: absolute;
+    top: -30px;
+    right: -50px;
+}
+#ticket .text h2{
+    margin-right: 60px;
+    font-size: 32px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    margin-top: 5px;
+    color: #d50a51;
+}
+
+#ticket .text p{
+    margin-top: 40px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 21px;
+    line-height: 25px;
+}
+.cbtn{
+    margin-top: 30px;
+}
+/*===========================
+    Ticket Part End
+============================*/
+
+/*===========================
+    Service Part Start
+============================*/
+
+#service{
+    background: #fef6f9;
+    padding-top: 90px;
+}
+.service-text h3{
+    margin-left: 50px;
+    font-size: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    position: relative;
+}
+.service-text h3::after{
+    content: "";
+    width: 88px;
+    height: 75px;
+    background: url(../img/love-left.png)no-repeat center/cover;
+    position: absolute;
+    top: -30px;
+    left: -55px;
+}
+.service-text h2{
+    margin-left: 50px;
+    font-size: 32px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    color: #d50a51;
+    margin-top: 5px;
+}
+.service-text p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 300;
+    margin-top: 30px;
+}
+.service-item .item{
+    padding: 18px;
+    margin: 7px;
+    position: relative;
+}
+.service-item .item .icon h3{
+    font-size: 22px;
+    margin-top: 5px;
+}
+.service-item .item .text p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 300;
+    padding-top: 10px;
+}
+.service-item .item::after{
+    content: "";
+    width: 3px;
+    height: 0;
+    background: #d50a51;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear .3s;
+}
+.service-item .item:hover::after{
+    opacity: 1;
+    visibility: visible;
+    background: #d50a51;
+    height: 100%;
+} 
+.service-item .item:hover{
+    background: #dbdbdb;
+    box-shadow: 1px 1px 3px 2px #c4c2c2;
+    transition: all linear .3s;
+}
+/*===========================
+    Service Part End
+============================*/
+
+/*===========================
+    Capture Part Start
+============================*/
+
+#capture{
+    margin: 100px 0;
+}
+
+.capture-item .item img{
+    width: 100%;
+    height: auto;
+}
+.capture-item .item{
+    position: relative; 
+}
+.capture-item .item .overlay{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    color: #ffffff;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear .3s;
+}
+.capture-item .item:hover .overlay{
+    opacity: 1;
+    visibility: visible;
+}
+.capture-item .item .overlay .icon{
+    display: flex;
+    justify-content: end;
+    height: 83%;
+    margin-right: 10px;
+}
+.capture-item .item .overlay .icon ul li{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 20px;
+    overflow: hidden;
+    border: 1px solid #ffffff;
+    transition: all linear .3s;
+}
+.capture-item .item .overlay .icon ul li:hover{
+    background: #d50a51;
+    border: 1px solid #d50a51;
+}
+.capture-item .item .overlay .icon ul li a{
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;   
+}
+.capture-item .item .overlay .text{
+    height: 17%;
+    text-align: center;
+}
+.capture-item .item .overlay .text h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.capture-item .item .overlay .text p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.capture-item .item .overlay .text .icon{
+    color: #ffffff;
+    margin-right: 5px;
+    margin-left: 10px;
+    text-align: right;
+}
+.capture-text{
+    text-align: right;
+    padding-top: 100px;
+}
+.capture-text h3{
+    margin-right: 60px;
+    margin-top: 30px;
+    font-size: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    position: relative;
+}
+.capture-text h3::after{
+    content: "";
+    width: 88px;
+    height: 75px;
+    background: url(../img/love.png) no-repeat center/cover;
+    position: absolute;
+    top: -30px;
+    right: -50px;
+}
+.capture-text h2{
+    margin-right: 60px;
+    font-size: 32px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    margin-top: 5px;
+    color: #d50a51;
+}
+.capture-text p{
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 21px;
+    line-height: 25px;
+}
+.btn2 a{
+    background: #ffffff;
+    border: 1px solid #d50a51;
+    border-radius: 20px;
+    padding: 8px;
+    color: #d50a51;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all linear .4s;
+    margin-left: 30px;
+}
+.btn2 a:hover{
+    background: #d50a51;
+    color: #ffffff;
+}
+
+/*===========================
+    Capture Part End
+============================*/
+
+/*===========================
+    Count Part Start
+============================*/
+#count{
+    background: url(../img/count.jpg)no-repeat center/cover;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+#count .count{
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+}
+.count .item{
+    position: relative;
+   
+}
+.count .item h2{
+    font-size: 42px;
+    color: #d50a51;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+.count .item h3{
+    font-size: 32px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+.count .love::after{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: url(../img/cl.png) no-repeat center/cover;
+    position: absolute;
+    top: -60px;
+    left: 125px;
+}
+.count .item h2::after{
+    content: "";
+    width: 35px;
+    height: 35px;
+    background: url(../img/cl1.png) no-repeat center/cover;
+    position: absolute;
+    top: -44px;
+    left: 145px;
+}
+.count .item h3::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: url(../img/cl3.png) no-repeat center/cover;
+    position: absolute;
+    top: -28px;
+    left: 125px;
+}
+/*===========================
+    Count Part End
+============================*/
+
+/*===========================
+   About Part Start
+============================*/
+
+#about{
+    margin-top: 125px;
+    margin-bottom: 100px; 
+}
+
+#about a:hover{
+    color: #ffffff;
+    background: #d50a51;
+    
+}
+.about-area .item{
+    background: #fffae2;
+    box-shadow: 0px 1px 1px 2px #eeedea;
+    padding: 10px;
+}
+.about-area .item .image{
+    margin-top: 20px;
+    display: flex;
+}
+.profession{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.profession h3{
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+.profession h4{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+.about-area{
+    position: relative;
+}
+.prev{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #8a5e3b;
+    text-align: center;
+    color: #f7ebf0;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: -70px;
+    z-index: 3;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.next{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #8a5e3b;
+    color: #f7ebf0;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    right: -70px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 4;
+}
+/* .love2{
+    position: relative;
+} */
+
+/* .love3{
+    position: relative;
+}
+
+.love2::after{
+    content: "";
+    width: 40px;
+    height: 40px;
+    background: url(../img/love2.png) no-repeat center/cover;
+    position: absolute;
+    top: -44px;
+    left: -41px;
+}
+.love2::before{
+    content: "";
+    width: 35px;
+    height: 35px;
+    background: url(../img/love3.png) no-repeat center/cover;
+    position: absolute;
+    top: -40px;
+    left: 0;
+}
+.love3::after{
+    content: "";
+    width: 25px;
+    height: 25px;
+    background: url(../img/love4.png) no-repeat center/cover;
+    position: absolute;
+    top: -33px;
+    left: -80px;
+}
+.love::after{
+    content: "";
+    width: 35px;
+    height: 35px;
+    background: url(../img/love6.png) no-repeat center/cover;
+    position: absolute;
+    bottom: -70px;
+    right: -228px;
+}
+.image .love{
+    position: relative;
+}
+.love::before{
+    content: "";
+    width: 25px;
+    height: 25px;
+    background: url(../img/love5.png) no-repeat center/cover;
+    position: absolute;
+    bottom: -33px;
+    right: -258px;
+}
+.love h3::after{
+    content: "";
+    width: 40px;
+    height: 40px;
+    background: url(../img/love7.png) no-repeat center/cover;
+    position: absolute;
+    bottom: -76px;
+    right: -271px;
+} */
+/*===========================
+    About Part End
+============================*/
+
+/*===========================
+    Footer Part Start
+============================*/
+
+#footer{
+    background: radial-gradient(#fad4e5, #ffffff, #fad4e5);
+}
+.newsletter{
+    background: #d50a51;
+    border-radius: 50px;
+    padding: 6px 40px;
+    transform: translateY(-50%);
+}
+.newsletter .news i{
+    font-size: 50px;
+    color: #ffffff;
+}
+.newsletter .news .text h2{
+    font-size: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+.newsletter .news .text h6{
+    font-size: 13px;
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+.newsletter .item a{
+    border: 2px solid rgb(248, 244, 244);
+    padding: 4px;
+    margin-left: -7px;
+}
+.newsletter .item i{
+    color: #ffffff;
+}
+.item .butt{
+    background: #d50a51;
+    border-color: #ffffff;
+    padding: 4px;
+}
+.item .buttonn{
+    background: #d50a51;
+    border-color: #ffffff;
+    padding: 4px;
+}
+input::placeholder{
+    color: white;
+} 
+
+.main-footer .logo{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+/* .main-footer .footer-item .item{
+    margin-left: 60px;
+} */
+.footer-item .item .icon1 i{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #d50a51;
+    margin-top: 5px;
+    line-height: 36px;
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+    font-size: 15px;
+}
+.ft-icon{
+    text-align: end;
+}
+.footer-item .item .text h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.follow{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.follow a{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #d50a51;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.follow i{
+    line-height: 30px;
+    justify-content: center;
+    display: flex;
+    color: #d50a51;
+}
+.follow i:hover{
+    background: #d50a51;
+    color: #ffffff;
+}
+
+.copy p{
+    background: #fce1ed;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 0;
+}
+.copy span{
+    color: #d50a51;
+}
+/*===========================
+    Footer Part End
+============================*/
+/* font-family: 'Great Vibes', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Open Sans', sans-serif; */
